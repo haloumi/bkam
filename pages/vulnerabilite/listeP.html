@@ -309,7 +309,16 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Produits</h3>
+              
+              <div style="float: left;">
+              <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="chercher Produit">
+
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>   
 
               <div class="box-tools">
                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -318,6 +327,7 @@
                 <div class="form-group">
             
                   <select  name="table_search" class="form-control pull-left" placeholder="chercher">
+                    <option>ALL</option>
                     <option>Vulnerable</option>
                     <option>Non Vulnerable</option>
                     
@@ -325,9 +335,7 @@
                 </div>
                   
 
-                  <div class="input-group-btn">
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -338,24 +346,60 @@
                   <th>Editeur</th>
                   <th>Produit</th>
                   <th>Version</th>
-                  <th>Vulnerable</th>
+                  <th>Description</th>
+                  <th>Location physique</th>
                   <th>Composants</th>
+                  <th>Description Vulnerable</th>
+                  <th>Plan d'action!!!</th>
+                  <th>Vulnerables</th>
+
                 </tr>
                 <tr>
                   <td>Microsoft</td>
                   <td>Produit-X</td>
                   <td>10.1.2.4</td>
-                  <td><span class="label label-success">NON</span></td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Location Phisique X</td>
+                  <td>Composants X</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td><span class="label label-success">NON</span></td>
+                </tr>
+                  <tr>
+                  <td>Microsoft</td>
+                  <td>Produit-X</td>
+                  <td>10.1.2.4</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Location Phisique X</td>
+                  <td>Composants X</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td><span class="label label-success">NON</span></td>
+                </tr>
+                 <tr>
+                  <td>Microsoft</td>
+                  <td>Produit-X</td>
+                  <td>10.1.2.4</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Location Phisique X</td>
+                  <td>Composants X</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td><span class="label label-danger">OUI</span></td>
+                </tr>
+                 <tr>
+                  <td>Microsoft</td>
+                  <td>Produit-X</td>
+                  <td>10.1.2.4</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Location Phisique X</td>
+                  <td>Composants X</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                  <td><span class="label label-danger">OUI</span></td>
                 </tr>
              
-                <tr>
-                  <td>Unix</td>
-                  <td>Produit-X</td>
-                  <td>10.2.X</td>
-                  <td><span class="label label-danger">OUI</span></td>
-                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                </tr>
+                
               </table>
             </div>
             <!-- /.box-body -->
